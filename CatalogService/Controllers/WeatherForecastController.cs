@@ -15,7 +15,7 @@ namespace CatalogService.Controllers
 
         public WeatherForecastController(ILogger<WeatherForecastController> logger)
         {
-            _logger = logger;
+            _logger = logger; //sample log
         }
 
         [HttpGet]
