@@ -22,7 +22,7 @@ app.UseHttpsRedirection();
 
 app.UseAuthorization();
 
-//test
+//test new
 app.MapControllers();
 
 app.Run();
